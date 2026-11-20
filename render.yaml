@@ -8,3 +8,7 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: MONGO_URI
+        value: "mongodb+srv://amruthakande0_db_user:2bNmUKwwhRO2XqQk@cluster0.xzvaat5.mongodb.net/fsd_db?retryWrites=true&w=majority"
+      - key: DB_NAME
+        value: "fsd_db"
